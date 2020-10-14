@@ -1,0 +1,166 @@
+/***** Base Styles *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+/***** Grid *****/
+
+.full-width{
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width{
+    float: left;
+    overflow:auto;
+    width: 560px;
+    padding: 0 20px;
+}
+
+/***** Header *****/
+
+header {
+    background: url('../img/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    color: #007d79;
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+header h2{
+    color: #484054;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 30px;
+    padding: 0 150px;
+    text-align: center;
+}
+
+/***** Work *****/
+
+#work h3 {
+    color: #484054;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 0 60px 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#work p {
+    color: #484054;
+    line-height: 25px;
+}
+
+#work img {
+    border: 1px solid #484054;
+}
+
+.project {
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+.project strong {
+    font-size: 22px;
+}
+
+/***** About *****/
+
+#about {
+    background-color: #629586;
+    margin: 0;
+}
+
+#about h3{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 0 60px 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#about p {
+    color: #ffffff;
+    line-height: 25px;
+}
+
+#about span {
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+}
+
+#about img {
+    border: 1px solid #484054;
+    margin-bottom: 60px;
+}
+
+/***** Contact *****/
+
+#contact {
+    background-color: #fee4e3;
+    margin: 0;
+}
+
+#contact h3 {
+    color: #484054;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 0 60px 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#contact p {
+    color: #484054;
+    line-height: 25px;
+    text-align: center;
+}
+
+#contact a {
+    color: #484054;
+    text-decoration: none;
+}
+
+#contact span {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 22px;
+}
+
+#contact ul {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 60px;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+
+/***** Footer *****/
+
+footer {
+    background-color: #fee4e3;
+    color: #c7c7c9;
+    font-size: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+
+footer a {
+    color: #c7c7c9;
+    font-size: 10px;
+    text-decoration: none;
+}
